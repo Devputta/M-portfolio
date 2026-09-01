@@ -1,119 +1,107 @@
-# Mahadevu M P — Portfolio v2 live: https://devputta.github.io/M-portfolio/
+# Mahadevu M P — Personal Portfolio
 
-A complete, cumulative React + Vite portfolio designed around the requested analyst / software-engineer visual style.
+Welcome to my personal portfolio repository.
 
-## Included
+This project is a modern, responsive portfolio website built with **React and Vite** to showcase my technical skills, projects, education, experience, publication, and professional interests.
 
-- Professional dark/light theme
-- Responsive mobile navigation
-- Home / About / Skills / Projects / Experience / Publication / Education / Contact
-- GitHub + LinkedIn + Email contact cards
-- Bengaluru, Karnataka location card
-- Contact form that opens the user's email client
-- Resume download
-- Profile photo placeholder + clear image instructions
-- Project image placeholders + instructions for replacing them
-- Project search
-- Project category filters
-- Click any project for a detailed project brief
-- GitHub link inside every project popup
-- Python + SQL coverage
-- Data Analytics
-- Data Engineering
-- Manual Testing / QA
-- Machine Learning
-- Full Stack
-- AI app / website creation
-- Publication link
-- GitHub Pages deployment workflow
+The portfolio is focused on my journey as a **Software Engineer** with interests and hands-on experience across **Python, SQL, Data Engineering, Data Analytics, Power BI, Manual Testing, Machine Learning, Full Stack Development, and AI-powered application development**.
 
-## Requested links already included
+The website provides a clean and responsive experience across desktop, tablet, and mobile devices, with both **dark and light themes**.
+
+It includes interactive navigation, responsive mobile navigation, project category filtering, project search, detailed project information popups, GitHub project links, resume download, profile photo support, social links, education details, experience, publication information, and a contact section.
+
+### Technical Skills
+
+**Programming:** Python, Java, C, OOP, Functions, Collections, Exception Handling, File Handling, APIs and Automation
+
+**Python Ecosystem:** Pandas, NumPy, Matplotlib, Scikit-learn, TensorFlow, Keras, Django and Jupyter
+
+**SQL & Databases:** SQL, MySQL, PostgreSQL, MongoDB, Joins, CTEs, Subqueries, Window Functions, Aggregations and Query Optimization
+
+**Data Engineering:** ETL/ELT, AWS S3, Snowflake, dbt, Incremental Loading, SCD Type 2, Medallion Architecture and Data Quality
+
+**Data Analytics & BI:** Power BI, DAX, Power Query, Excel, Data Modeling, KPIs, Dashboarding and Exploratory Data Analysis
+
+**Manual Testing / QA:** STLC, Test Scenarios, Test Cases, Smoke Testing, Regression Testing, Negative Testing, Bug Reporting and RTM
+
+**Machine Learning:** Data Preprocessing, Feature Engineering, Scikit-learn, TensorFlow, Keras, Model Evaluation and Anomaly Detection
+
+**AI & Application Development:** Prompt Engineering, AI APIs, AI Websites, Chatbots, Automation, Creative UI and API Integration
+
+**Tools:** Git, GitHub, VS Code, Selenium, UiPath, Chrome DevTools and Jupyter
+
+### Projects
+
+**Manual Testing Project**  
+A practical QA project covering test scenarios, detailed test cases, test data, bug reports, regression testing, RTM, STLC and negative testing.
+
+**AC Company Product Analysis**  
+A data analysis project focused on data cleaning, exploratory analysis, business KPIs, product analysis, visualization and business insights.
+
+**AWS + Snowflake + dbt Data Engineering**  
+An end-to-end data engineering project using AWS S3, Snowflake, dbt and Python, following Bronze, Silver and Gold architecture with incremental loading, SCD Type 2 and data quality practices.
+
+**All-in-One Python & SQL**  
+A programming and database practice repository covering Python fundamentals, OOP, functions, collections, file handling, exceptions, APIs, Pandas, NumPy and advanced SQL concepts.
+
+**Final Year Machine Learning Project**  
+A machine learning project demonstrating data preprocessing, feature preparation, model training, evaluation and Python-based machine learning workflows.
+
+**Hospital Management System**  
+A full-stack web application project demonstrating frontend, backend, database operations, CRUD functionality, authentication and hospital-related workflows.
+
+**Lumen Cinematic Vault — AI Creation**  
+An AI-assisted web application project combining creative UI design, prompt engineering, AI tools, automation and modern web application development.
+
+### Professional Experience
+
+**Associate Intern — RPA & Automation**  
+**Employability.life | Nov 2024 – Mar 2025**
+
+Worked with UiPath and automation workflows, explored Excel and OCR-oriented automation concepts, and gained practical experience in workflow automation.
+
+### Education
+
+**BE — Information Science & Engineering**  
+PES College of Engineering, Mandya  
+2021 – 2025
+
+**Diploma — Computer Science**  
+Government Polytechnic, Ramanagara  
+2018 – 2021
 
 ### Publication
+
+My research publication is available through the TARCE platform:
+
 https://tarce.co/index.php/tarce/article/view/4261
 
-### Manual Testing
-https://github.com/Devputta/Manual-Testing-Project---1-By-DevPutta
+### Portfolio
 
-### Data Analysis
-https://github.com/Devputta/AC-Company-Product-Analysis-
+Live Portfolio:  
+https://devputta.github.io/M-portfolio/
 
-### Data Engineering
-https://github.com/Devputta/DE_PROJECT---AWS---SNOWFLAKE---DBT
+AI-created Portfolio Version:  
+https://mahadevump.lovable.app/
 
-### Python + SQL
-https://github.com/Devputta/ALL-IN-ONE
+### Connect With Me
 
-### Machine Learning
-https://github.com/Devputta/Final-Year-Project
+**GitHub:**  
+https://github.com/Devputta
 
-### Full Stack
-https://github.com/Devputta/Hospital-Management-System
+**LinkedIn:**  
+https://www.linkedin.com/in/mahadevu-m-p-58b51426/
 
-### AI Creation
-https://github.com/Devputta/lumen-cinematic-vault-By-AI
+**Email:**  
+mahadevump657@gmail.com
 
-## Add your photo
+### Built With
 
-Put your real image here:
+React  
+Vite  
+JavaScript  
+CSS  
+Lucide React  
+GitHub Pages
 
-`public/profile.jpg`
-
-The website falls back to `public/profile-placeholder.svg` if the photo is missing.
-
-Recommended:
-- Professional headshot
-- JPG/WebP
-- 1000×1200 or larger
-- Clear lighting
-- Simple background
-
-## Add your resume
-
-Replace:
-
-`public/resume.pdf`
-
-with your real resume PDF.
-
-The Resume button is already connected to `/resume.pdf`.
-
-## Add real project screenshots
-
-Put images in:
-
-`public/images/`
-
-Then update the corresponding `image` value in `src/main.jsx`.
-
-Example:
-
-```js
-image: "/images/airbnb-dashboard.png"
-```
-
-## Run locally
-
-```bash
-npm install
-npm run dev
-```
-
-## Build
-
-```bash
-npm run build
-```
-
-## GitHub Pages
-
-1. Create/use your GitHub repository.
-2. Push this project to the `main` branch.
-3. Open **Settings → Pages**.
-4. Set **Source** to **GitHub Actions**.
-5. Push again if necessary.
-6. GitHub Actions will build `dist` and deploy it.
-
-## Important
-
-Do not put API keys, passwords or private credentials in this frontend repository.                                                         for reference : https://mahadevump.lovable.app/ (created by Ai)
+The portfolio is continuously updated as I work on new projects and improve my skills across **Software Engineering, Data, Analytics, Quality Assurance, Machine Learning and Artificial Intelligence**.
