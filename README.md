@@ -116,4 +116,4 @@ npm run build
 
 ## Important
 
-Do not put API keys, passwords or private credentials in this frontend repository.
+Do not put API keys, passwords or private credentials in this frontend repository.                                                         for reference : https://mahadevump.lovable.app/ (created by Ai)
