@@ -1,4 +1,4 @@
-# Mahadevu M P — Portfolio v2
+# Mahadevu M P — Portfolio v2 live: https://devputta.github.io/M-portfolio/
 
 A complete, cumulative React + Vite portfolio designed around the requested analyst / software-engineer visual style.
 
